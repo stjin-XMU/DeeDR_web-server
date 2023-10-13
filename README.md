@@ -1,10 +1,12 @@
 # DeepDR platform
 DeepDR: an intergrated deep-learning model web server for drug repositioning
+
 DeepDR server is available at [http://drpredictor.com]([http://drpredictor.com])
+
+![Graph abstract](https://github.com/stjin-XMU/DeeDR_web-server/blob/main/Graph_abstract.png)
 
 # Abstract
 Identifying new indications for approved drugs is a complex and time-consuming process that requires extensive knowledge of pharmacology, clinical data, and advanced computational methods. Recently, deep learning (DL) methods have shown their capability for the accurate prediction of drug repositioning. However, implementing DL-based modeling requires in-depth domain knowledge and proficient programming skills. Furthermore, to avoid making unreliable recommendations, it also is crucial to use different computational schemes to identify potential drug candidates for different scenarios. To tackle these challenges, we have developed DeepDR (Deep learning-based Drug Repositioning), the first integrated platform that combines a variety of established DL-based models or disease- and target-specific drug repositioning tasks. These deep learning models have undergone rigorous peer review and have been successfully published in prestigious journals. DeepDR leverages invaluable experience to recommend candidate drugs, which covers more than 15 networks and a comprehensive knowledge graph that includes 5.9 million edges across 107 types of relationships connecting drugs, diseases, proteins/genes, pathways, and expression from six existing databases and a large scientific corpus of 24 million PubMed publications. Extensive evaluation results demonstrate that DeepDR achieves excellent predictive performance with an average AUROC of 0.922 for drug repositioning. In addition, the web server also provides detailed descriptions of the recommended drugs, and visualizes key patterns with interpretability through a knowledge graph. DeepDR is free and open to all users without the requirement of registrationand it aims to provide an easy-to-use, systematic, highly accurate and computationally automated platform for experimental and computational scientists. DeepDR server is available at http://drpredictor.com
-![DSMN construction](https://github.com/stjin-XMU/DeeDR_web-server/blob/main/platform.png)
 
 # python interface
 This repository is prepared for the python interface of this webserver.
