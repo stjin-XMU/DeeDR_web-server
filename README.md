@@ -1,7 +1,7 @@
 # DeepDR platform
 DeepDR: an intergrated deep-learning model web server for drug repositioning
 
-DeepDR server is available at [http://drpredictor.com]([http://drpredictor.com])
+DeepDR server is available at http://drpredictor.com
 
 <img src="https://github.com/stjin-XMU/DeeDR_web-server/blob/main/Graph-02.png" height="50%" width="50%">
 
@@ -13,7 +13,7 @@ This repository is prepared for the python interface of this webserver.
 Now, it’s just a primary version and still need to develop related functions and interfaces.
 
 # 1. How to run?
-1.1 Model download
+## 1.1 Model download
 Firstly, you can find the models from "Models", or download models from relevant github repository
 
 The "Disease-Centric DeepDR " service：
@@ -27,9 +27,16 @@ The "Target-Centric DeepDR " service：
 [TarKGE](https://github.com/ChengF-Lab/CoV-KGE)
 [KG-MTL](https://github.com/xzenglab/KG-MTL)
 
-1.2 strat train
+## 1.2 strat train
 If you need a specific implementation, we recommend readers to check the relevant git repository for more detailed information.
 
-# 2. Models
-We have collected more six models applied to drug repositioning. They are all in model folder and you can review it.
+# 2. ‘Models’ directory
+We have collected more six models applied to drug repositioning. They are all in models folder and you can review it.
+
+# 3. ‘Datasets’ directory
+Contain the all node information，interaction networks and knowledge graph.
+
+# 4. Requirements
+
+
 
