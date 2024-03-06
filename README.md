@@ -36,7 +36,6 @@ We have collected more six models applied to drug repositioning. They are all in
 # 3. ‘Datasets’ directory
 Contain the all node information，interaction networks and knowledge graph.
 
-# 4. Requirements
 
 
 
